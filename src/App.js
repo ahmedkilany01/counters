@@ -1,11 +1,9 @@
-import Counter from "./components/Counter";
+import CountersPage from "./pages/CountersPage";
 
 function App() {
   return (
     <div>
-      <Counter pass_value={1} />
-      <Counter pass_value={2} />
-      <Counter pass_value={3} />
+      <CountersPage />
     </div>
   );
 }
