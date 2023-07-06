@@ -1,0 +1,38 @@
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0 0;
+}
+
+.increment,
+.decrement {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.increment {
+  background-color: #23c792;
+}
+
+.decrement {
+  background-color: #fb3e69;
+}
+
+.count {
+  font-size: 22px;
+}
