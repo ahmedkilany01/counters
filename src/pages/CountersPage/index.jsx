@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Counter from "../../components/Counter";
 
+import Style from "./style.module.css";
+
 export default class CountersPage extends Component {
   state = {
     total: 0,
@@ -20,7 +22,7 @@ export default class CountersPage extends Component {
           <Counter onChange={this.counterChange} />
           <Counter onChange={this.counterChange} />
         </div>
-        <h3>Total: {this.state.total}</h3>
+        <h3 className={Style.total}>Total: {this.state.total}</h3>
       </div>
     );
   }
